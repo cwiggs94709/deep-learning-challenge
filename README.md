@@ -1,8 +1,9 @@
 # deep-learning-challenge
 
-Overview: 
+**Overview**: 
 The objective of the analysis is to develop a binary classification model using machine learning and neural networks that can predict the success of applicants for funding by Alphabet Soup. This tool aims to help Alphabet Soup select the applicants with the highest potential for successful ventures based on historical data of over 34,000 organizations that have previously received funding.
-Results: Using bulleted lists and images to support your answers, address the following questions:
+
+**Results**:
 Data Preprocessing
 What variable(s) are the target(s) for your model?
 The target IS_SUCCESSFUL is the variable indicating whether the funding received by an organization was used effectively. It is the target variable for the model, as the objective is to predict the success of applicants based on their characteristics.
@@ -35,7 +36,8 @@ Dropped 2 more columns: “Status” and “Special Considerations”
 Changed the neurons from 80/30 to 100 
 Changed layer from sigmoid to tanh in one iteration
 Changed all layers to relu in another
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+**Summary**: 
 Results of optimization: 268/268 - 1s - loss: 0.6696 - accuracy: 0.7272 - 953ms/epoch - 4ms/step; Loss: 0.6695956587791443, Accuracy: 0.7272303104400635
 Perhaps further hyperparameter tuning such as increasing Epochs and Batch Sizes, changing activation functions, and/or increasing the number of layers/ neurons could improve accuracy. 
 
